@@ -222,7 +222,7 @@ body {
   box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.105);
 }
 
-#portfolio button {
+#portfolio ul li button {
   background-color: transparent;
   color: inherit;
 }
@@ -423,6 +423,9 @@ body {
   }
 }
 @media (width < 576px) {
+  #portfolio ul li {
+    font-size: 14px;
+  }
   #slider .owl-carousel .carousal-item {
     width: 90%;
   }

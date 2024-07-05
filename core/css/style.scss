@@ -254,14 +254,16 @@ body {
     }
 }
 
-//================ S3 =================
-
+//================ S4 ================
 #portfolio {
-    button {
-        background-color: transparent;
-        color: inherit;
+    ul{
+      li{
+        button {
+            background-color: transparent;
+            color: inherit;
+        }
+      }  
     }
-
     .main {
         position: relative;
         cursor: pointer;
@@ -285,8 +287,7 @@ body {
     }
 }
 
-//================ S4 =================
-
+//================ S5 =================
 #testmonial {
     background-color: $main-bg-color;
 
@@ -308,8 +309,7 @@ body {
     }
 }
 
-//================ S5 =================
-
+//================ S6 =================
 #slider {
     .owl-carousel {
         .carousal-item {
@@ -349,8 +349,7 @@ body {
     }
 }
 
-//================ S6 =================
-
+//================ S7 =================
 #blog {
     background-color: $main-bg-color;
     .item {
@@ -384,7 +383,7 @@ body {
     }
 }
 
-// ============= s7 ================
+// ============= S8 ================
 #contact {
     .form {
         width: 60%;
@@ -513,6 +512,14 @@ body {
 }
 
 @media (width < 576px) {
+// portfolio
+#portfolio {
+    ul{
+      li{
+        font-size: 14px;
+      }  
+    }}
+// slider
     #slider {
         .owl-carousel {
             .carousal-item {
